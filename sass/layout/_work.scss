@@ -1,0 +1,31 @@
+.work {
+	&__list {
+		display: flex;
+	}
+	&__item {
+		position: relative;
+		flex-basis: calc((100% - 2 * 30px) / 3);
+		&:not(:nth-child(3n)) {
+			margin-right: 30px;
+		}
+	}
+	&__text {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 70px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		background-color: rgba(47, 48, 58, 0.8);
+		color: #ffffff;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 1.143;
+
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+	}
+}

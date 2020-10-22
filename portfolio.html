@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>WebStudio</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.0.0/modern-normalize.min.css" />
+		<link rel="stylesheet" href="./css/portfolio.min.css" />
+	</head>
+	<body>
+		<!-- Header -->
+		<header class="header">
+			<!-- Main navigation -->
+			<div class="container">
+				<nav class="navigation">
+					<!-- LOGO -->
+					<a href="./index.html" class="logotype link" aria-label="логотип веб-студии">
+						Web
+						<span class="logotype_dark">Studio</span>
+					</a>
+					<ul class="navigation__main list">
+						<li class="navigation__item"><a href="./index.html" class="link">Студия</a></li>
+						<li class="navigation__item">
+							<a href="./portfolio.html" class="link navigation__item_current">Портфолио</a>
+						</li>
+						<li class="navigation__item"><a href="" class="link">Контакты</a></li>
+					</ul>
+				</nav>
+				<!-- Contacts -->
+				<address>
+					<ul class="contact list">
+						<li class="contact__item">
+							<a href="mailto:info@devstudio.com" class="contact__link link">
+								<svg class="contact__svg" width="16" height="12">
+									<use href="./img/svg/sprite.svg#icon-envelope"></use>
+								</svg>
+								info@devstudio.com
+							</a>
+						</li>
+						<li class="contact__item">
+							<a href="tel:+380961111111" class="contact__link link">
+								<svg class="contact__svg" width="10" height="16">
+									<use href="./img/svg/sprite.svg#icon-smartphone"></use>
+								</svg>
+								+38096111111
+							</a>
+						</li>
+					</ul>
+				</address>
+			</div>
+		</header>
+
+		<main>
+			<section class="section portfolio">
+				<div class="container">
+					<h2 class="portfolio title" hidden>Наши работы</h2>
+					<!-- Filter list -->
+					<ul class="filter list">
+						<li class="filter__item"><button type="button" class="filter__btn">Все</button></li>
+						<li class="filter__item"><button type="button" class="filter__btn">Веб-сайты</button></li>
+						<li class="filter__item"><button type="button" class="filter__btn">Приложения</button></li>
+						<li class="filter__item"><button type="button" class="filter__btn">Дизайн</button></li>
+						<li class="filter__item"><button type="button" class="filter__btn">Маркетинг</button></li>
+					</ul>
+
+					<!-- Work examples -->
+					<ul class="galery list">
+						<li class="galery__item">
+							<a href="" class="galery__link link">
+								<div class="galery__card">
+									<div class="galery__picture">
+										<img
+											src="./img/portfolio/tech-crack.jpg"
+											alt="3 photos of employee with occupation"
+											width="370"
+											height="294"
+										/>
+										<p class="galery__text">
+											Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
+											для цифрового шпионажа и атак на защищённые сервера конкурентов.
+										</p>
+									</div>
+									<div class="galery__description">
+										<h3 class="galery__subtitle">Технокряк</h3>
+										<p class="galery__category">Веб-сайт</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="galery__item">
+							<a href="" class="galery__link link">
+								<div class="galery__card">
+									<div class="galery__picture">
+										<img
+											src="./img/portfolio/poster.jpg"
+											alt="poster of game New Orlean vs Golden Star"
+											width="370"
+											height="294"
+										/>
+										<p class="galery__text">
+											Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi provident natus deserunt ab
+											tempora odio! Ratione, rerum! Tempore, sit numquam.
+										</p>
+									</div>
+									<div class="galery__description">
+										<h3 class="galery__subtitle">Постер New Orlean vs Golden Star</h3>
+										<p class="galery__category">Дизайн</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="galery__item">
+							<a href="" class="galery__link link">
+								<div class="galery__card">
+									<div class="galery__picture">
+										<img
+											src="./img/portfolio/seafood-restaurant.jpg"
+											alt="Logo of sea-food restaurant"
+											width="370"
+											height="294"
+										/>
+										<p class="galery__text">
+											Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi provident natus deserunt ab
+											tempora odio! Ratione, rerum! Tempore, sit numquam.
+										</p>
+									</div>
+									<div class="galery__description">
+										<h3 class="galery__subtitle">Ресторан Seafood</h3>
+										<p class="galery__category">Приложение</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="galery__item">
+							<a href="" class="galery__link link">
+								<div class="galery__card">
+									<div class="galery__picture">
+										<img src="./img/portfolio/prime.jpg" alt="head-set" width="370" height="294" />
+										<p class="galery__text">
+											Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi provident natus deserunt ab
+											tempora odio! Ratione, rerum! Tempore, sit numquam.
+										</p>
+									</div>
+									<div class="galery__description">
+										<h3 class="galery__subtitle">Проект Prime</h3>
+										<p class="galery__category">Маркетинг</p>
+									</div>
+								</div>
+							</a>
+						</li>
+
+						<li class="galery__item">
+							<a href="" class="galery__link link">
+								<div class="galery__card">
+									<div class="galery__picture">
+										<img src="./img/portfolio/boxes.jpg" alt="2 tarton boxes" width="370" height="294" />
+										<p class="galery__text">
+											Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi provident natus deserunt ab
+											tempora odio! Ratione, rerum! Tempore, sit numquam.
+										</p>
+									</div>
+									<div class="galery__description">
+										<h3 class="galery__subtitle">Проект Boxes</h3>
+										<p class="galery__category">Приложение</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="galery__item">
+							<a href="" class="galery__link link">
+								<div class="galery__card">
+									<div class="galery__picture">
+										<img
+											src="./img/portfolio/inspiration-no-border.jpg"
+											alt="Dark desctope with some text"
+											width="370"
+											height="294"
+										/>
+										<p class="galery__text">
+											Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi provident natus deserunt ab
+											tempora odio! Ratione, rerum! Tempore, sit numquam.
+										</p>
+									</div>
+									<div class="galery__description">
+										<h3 class="galery__subtitle" lang="en">Inspiration has no Borders</h3>
+										<p class="galery__category">Веб-сайт</p>
+									</div>
+								</div>
+							</a>
+						</li>
+
+						<li class="galery__item">
+							<a href="" class="galery__link link">
+								<div class="galery__card">
+									<div class="galery__picture">
+										<img src="./img/portfolio//limited-edition.jpg" alt="an open magazine" width="370" height="294" />
+										<p class="galery__text">
+											Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi provident natus deserunt ab
+											tempora odio! Ratione, rerum! Tempore, sit numquam.
+										</p>
+									</div>
+									<div class="galery__description">
+										<h3 class="galery__subtitle">Издание Limited Edition</h3>
+										<p class="galery__category">Дизайн</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="galery__item">
+							<a href="" class="galery__link link">
+								<div class="galery__card">
+									<div class="galery__picture">
+										<img src="./img/portfolio/project-lab.jpg" alt="Tag named project-lab" width="370" height="294" />
+										<p class="galery__text">
+											Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi provident natus deserunt ab
+											tempora odio! Ratione, rerum! Tempore, sit numquam.
+										</p>
+									</div>
+									<div class="galery__description">
+										<h3 class="galery__subtitle">Проект LAB</h3>
+										<p class="galery__category">Маркетинг</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="galery__item">
+							<a href="" class="galery__link link">
+								<div class="galery__card">
+									<div class="galery__picture">
+										<img
+											src="./img/portfolio/growning-business.jpg"
+											alt="Worktop with desctop and hands"
+											width="370"
+											height="294"
+										/>
+										<p class="galery__text">
+											Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi provident natus deserunt ab
+											tempora odio! Ratione, rerum! Tempore, sit numquam.
+										</p>
+									</div>
+									<div class="galery__description">
+										<h3 class="galery__subtitle">Growing Business</h3>
+										<p class="galery__category">Приложение</p>
+									</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+
+		<!-- Footer -->
+
+		<footer class="footer">
+			<div class="container footer__container">
+				<div class="footer__contacts">
+					<a href="./index.html" class="link logotype" aria-label="логотип веб-студии">
+						Web
+						<span class="logotype_white">Studio</span>
+					</a>
+
+					<address>
+						<ul class="list">
+							<li>
+								<a href="https://goo.gl/maps/YRK9uNCiw2VT1dtW6" class="footer__map link">
+									<span class="footer__address">г. Киев, пр-т Леси Украинки, 26</span>
+								</a>
+							</li>
+							<li>
+								<a href="mailto:info@example.com" class="footer__link_grey link">info@example.com</a>
+							</li>
+							<li><a href="tel:+380991111111" class="footer__link_grey link">+38 099 111 11 11</a></li>
+						</ul>
+					</address>
+				</div>
+
+				<div class="footer__social-list">
+					<p class="footer__subtitle">Присоединяйтесь</p>
+					<ul class="social-list list">
+						<li>
+							<a href="" class="social-list__link link">
+								<svg class="social-list__svg">
+									<use href="./img/svg/sprite.svg#icon-instagram"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="" class="social-list__link link">
+								<svg class="social-list__svg">
+									<use href="./img/svg/sprite.svg#icon-twitter"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="" class="social-list__link link">
+								<svg class="social-list__svg">
+									<use href="./img/svg/sprite.svg#icon-facebook"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="" class="social-list__link link">
+								<svg class="social-list__svg">
+									<use href="./img/svg/sprite.svg#icon-linkedin"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer__sign-up">
+					<p class="footer__subtitle">Подпишитесь на рассылку</p>
+					<form action="" class="footer__form">
+						<label for="footer__email">
+							<input type="email" id="subscribe-email" placeholder="E-mail" class="footer__input" />
+						</label>
+						<button type="button" class="button">
+							Подписаться
+							<svg class="footer__svg" width="24" height="24">
+								<use href="./img/svg/sprite.svg#icon-icon-send"></use>
+							</svg>
+						</button>
+					</form>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
