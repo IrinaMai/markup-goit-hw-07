@@ -1,5 +1,5 @@
 .logotype {
-	color: var(--acent-color);
+	color: $acent-color;
 	font-family: raleway;
 	font-weight: 700;
 	font-size: 26px;
@@ -12,7 +12,7 @@
 		color: #000000;
 	}
 	&_white {
-		color: var(--white-color);
+		color: $white-color;
 	}
 	header & {
 		margin-right: 93px;
