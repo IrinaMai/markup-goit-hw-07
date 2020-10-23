@@ -455,16 +455,16 @@ header .logotype {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .footer .social-list {
   margin-left: 0;
 }
 
-.footer social__link {
+.footer .social-list__link {
   background-color: rgba(255, 255, 255, 0.1);
-}
-
-.footer social__link:hover {
-  background-color: #2196f3;
 }
 
 .footer .social-list__svg {
